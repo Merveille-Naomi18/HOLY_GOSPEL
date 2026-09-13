@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HGCN-Website</title>
+
+        <link rel="stylesheet" href="style.CSS">
+    </head>
+    <body>
+        <nav>
+           <h1 class="logo">
+                <img src="images/logo.png" alt="Holy Gospel Church-Namasuba logo">
+            </h1>
+            <div class="menu-btn" onclick="openMenu()">
+              &#9776;  
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="ministries.html">Our Ministies</a>
+                <a href="events.html">Our Events</a>
+                <a href="prayers.html">Prayer Requests</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="sidebar" id="sidebar">
+             <span class="close-btn" onclick="closeMenu()">&times;</span>
+
+              <a href="index.html">Home</a>
+              <a href="about.html">About Us</a>
+              <a href="ministries.html">Our Ministies</a>
+              <a href="events.html">Our Events</a>
+              <a href="prayers.html" class="active">Prayer Requests</a>
+              <a href="contact.html">Contact Us</a>
+           </div>
+        </nav>
+       <section class="prayers">
+            <h2> Prayer Requests</h2>
+            <p class="prayer-intro">
+                We would be honored to pray for you.
+                Share your prayer requests below and our prayer team will stand with you in faith.
+            </p>
+            
+            <div class="prayer-form">
+                <form id="prayersForm">
+                    <label>Name:</label>
+                    <input type="text" id="name">
+                    <small id="nameError"></small>
+                    <label>Email (Optional):</label>
+                    <input type="email" id="email">
+                    <label>Prayer request</label>
+                    <textarea id="request"rows="6"></textarea>
+                    <small id="requestError"></small>
+                    <button type="submit">Send Prayer Request</button>
+                </form>
+                <p id="successMessage"></p>
+            </div>
+        </section>
+        <script src="script.js"></script>
+
+    </body>
+
+    
+    
+</html>

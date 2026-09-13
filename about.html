@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HGCN-Website</title>
+
+        <link rel="stylesheet" href="style.CSS">
+    </head>
+    <body>
+        <nav>
+           <h1 class="logo">
+                <img src="images/logo.png" alt="Holy Gospel Church-Namasuba logo">
+            </h1>
+            <div class="menu-btn" onclick="openMenu()">
+             &#9776;  
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="ministries.html">Our Ministies</a>
+                <a href="events.html">Our Events</a>
+                <a href="prayers.html">Prayer Requests</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+       
+          <div class="sidebar" id="sidebar">
+            <span class="close-btn" onclick="closeMenu()">&times;</span>
+
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About Us</a>
+            <a href="ministries.html">Our Ministies</a>
+            <a href="events.html">Our Events</a>
+            <a href="prayers.html">Prayer Requests</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </nav>
+        <section class="about-content">
+          <h1>About Us</h1>
+          <h2> Our Story</h2>
+          <p>The Holy Gospel Church is an indigenous Ministry in Uganda born in 1977 when the then government led by Idi Amin had placed ban on the operation of all pentecostal churches in the country.</p>
+          <p>Born-again Christians were not allowed to assemble and if found they were imprisoned or even killed.</p>
+          <p>This prompted the Ndejje Full Gospel congregation in Ndejje Parish Makindye Ssabagabo led by(Now the late) Bishop George William Mubiru to see God for six days 
+            with prayer and fasting to know why the church in Uganda was going through such experience.
+          </p>
+          <p> It was during this time of humbling themselves before the lord that they received an illumination from the word of God of a call to live
+            a life of Holiness according to Hebn12:14. They started proclaiming the gospel of <b> Holiness and Righteous living</b> to other 
+          congregation.  </p>
+          <p>To freely emphasize this Truth, they decided to register this church as the Uganda Church Of the Holy Gospel in 1977, which later changed to
+            The Holy Gospel Church in 1984, to enable them proclaim this message to other nations. Our call is to proclaim the same truth to this generation.
+          </p>
+          <div class="about-photo-wrapper">
+            <button class="photo-arrow left" onclick="scrollPhotos(-1)">&#10094;</button>
+            <div class="about-photos">
+              
+              <div class="about-slide">
+                <img src="images/rev1.jpeg" alt="Holy Gospel Church history">
+              </div>
+
+              <div class="about-slide">
+                <img src="images/rev2.jpeg" alt="Holy Gospel Church history">
+              </div>
+
+              <div class="about-slide">
+                <img src="images/rev3.jpeg" alt="Holy Gospel Church history">
+              </div>
+
+              <div class="about-slide">
+                <img src="images/rev4.jpg" alt="Holy Gospel Church history">
+              </div>
+            </div>
+            <button class="photo-arrow right" onclick="scrollPhotos(1)">&#10095;</button>
+          </div>
+         
+          <h2>Vision</h2>
+          <p> To be Holy unto God and follow peace with all men.</p>
+          <h2>Mission</h2>
+          <p>To seek after God, worship and serve Him, and to teach Holiness and Righteousness as the basis for living a lifestyle that
+            that portrays Christ to world.
+          </p>
+          <h2>Purpose</h2>
+          <ul><li>To know God and to worship God in Truth and Spirit.</li>
+          <li>To bring all men to the knowledge of Christ</li>
+          <li>To equip all Saints to pursue Holiness in all asects of life.</li>
+          <li>To demonstrate God's Love to all people.</li>
+          <li>To develop strong Christian families which are able to nurture Godly seeds.</li>
+          <li>To provide pastoral covering to affiliate local churches.</li></ul>
+          <h2>Core Values</h2>
+          <ul>
+            <li>Sound Biblical doctrine.</li>
+            <li>Exemplary Christian Lifestyle.</li>
+            <li>Prayer.</li>
+            <li>Evangelism.</li>
+            <li>Church planting</li>
+            <li>Pastoral Ministry</li>
+            <li>Fellowship</li>
+            <li>Works of charity</li>
+          </ul>
+          <h2>Meet Our Pastor</h2>
+          <div class="pastor-section">
+            <img src="images/pastor.jpg" alt="Pastor of Holy Gospel Church-Namasuba">
+
+            <div>
+              <p>
+                Holy Gospel Church-Namasuba is under the leardership of Pastor David Nwanyi and Mrs Faith Nwanyi.
+              </p>
+              <p> 
+                Our pastor is dedicated to serving God, leading the church, and helping the congregation grow in faith and holiness.
+              </p>
+              
+            </div>
+          </div>
+        </section>
+    </body>
+
+    <script src="script.js"></script>
+    
+</html>
